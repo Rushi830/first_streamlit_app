@@ -39,8 +39,7 @@ my_data_row = my_cur.fetchall()
 streamlit.header("The Fruit load list contains:")
 streamlit.dataframe(my_data_row)
 my_cur.execute("Insert into fruit_load_list values('from streamlit')")
-
-
+stremlit.stop()
 
 
 
