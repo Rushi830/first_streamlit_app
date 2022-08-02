@@ -2,6 +2,7 @@
 import streamlit
 import requests
 import pandas
+from url.lib.error import URLError
 streamlit.title('app testing check')
 streamlit.header('Breakfast Menu')
 streamlit.text('Bread')
